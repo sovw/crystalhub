@@ -1,5 +1,3 @@
-if game.PlaceId == 3823781113 then
-
 local DeadHubSaber = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Circle = Instance.new("ImageLabel")
@@ -748,6 +746,3 @@ local function GMZK_fake_script() -- GameTitle.LocalScript
 	end
 end
 coroutine.wrap(GMZK_fake_script)()
-else
-print("Wrong game!")
-end
